@@ -172,5 +172,4 @@ function light() {
   dirLight.shadow.mapSize.width = 4096;
   dirLight.shadow.mapSize.height = 4096;
   scene.add(dirLight);
-  // scene.add( new THREE.CameraHelper(dirLight.shadow.camera))
 }
