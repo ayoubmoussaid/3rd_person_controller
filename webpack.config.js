@@ -13,7 +13,7 @@ const src = path.resolve(__dirname, "src");
 const config = {
   entry: "./src/main.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: src,
   },
   devServer: {
     open: true,
